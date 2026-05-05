@@ -1,0 +1,455 @@
+---
+### `index.html`
+```html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Pilates Fountain Hills — Exclusive Reformer Pilates Studio</title>
+  <meta name="description" content="An exclusive Pilates reformer studio in Fountain Hills, Arizona. 15 reformers, expert instruction, intimate classes, unlimited memberships at $289/month." />
+  <meta name="theme-color" content="#8a9a7b" />
+  <meta property="og:title" content="Pilates Fountain Hills" />
+  <meta property="og:description" content="Reformer Pilates, refined. Fountain Hills, Arizona." />
+  <meta property="og:type" content="website" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300;400;500;600&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='6' fill='%238a9a7b'/%3E%3Ctext x='16' y='22' font-family='Georgia,serif' font-size='18' fill='%23f5f0e8' text-anchor='middle'%3EP%3C/text%3E%3C/svg%3E" />
+</head>
+<body>
+  <!-- TOP BAR -->
+  <div class="topbar">
+    <span>Now booking. Founding members save on the first month.</span>
+  </div>
+  <!-- NAV -->
+  <header class="nav" id="nav">
+    <div class="container nav-inner">
+      <a href="#top" class="brand" aria-label="Pilates Fountain Hills home">
+        <span class="brand-mark">P</span>
+        <span class="brand-text">
+          <strong>Pilates</strong><em>Fountain Hills</em>
+        </span>
+      </a>
+      <nav class="nav-links" aria-label="Primary">
+        <a href="#studio">Studio</a>
+        <a href="#classes">Classes</a>
+        <a href="#schedule">Schedule</a>
+        <a href="#memberships">Memberships</a>
+        <a href="#book">Book</a>
+        <a href="#contact">Contact</a>
+      </nav>
+      <a href="#book" class="btn btn-primary nav-cta">Book a Session</a>
+      <button class="nav-toggle" aria-label="Open menu" aria-expanded="false" aria-controls="mobile-menu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+    <div class="mobile-menu" id="mobile-menu" hidden>
+      <a href="#studio">Studio</a>
+      <a href="#classes">Classes</a>
+      <a href="#schedule">Schedule</a>
+      <a href="#memberships">Memberships</a>
+      <a href="#book">Book</a>
+      <a href="#contact">Contact</a>
+      <a href="#book" class="btn btn-primary">Book a Session</a>
+    </div>
+  </header>
+  <!-- HERO -->
+  <section class="hero" id="top">
+    <div class="hero-bg" aria-hidden="true"></div>
+    <div class="container hero-inner">
+      <p class="eyebrow">Fountain Hills, Arizona</p>
+      <h1 class="display">
+        Reformer Pilates,<br /><em>refined.</em>
+      </h1>
+      <p class="lede">
+        An exclusive boutique studio with fifteen state-of-the-art reformers,
+        intimate class sizes, and instruction obsessed with the details.
+      </p>
+      <div class="hero-cta">
+        <a href="#book" class="btn btn-primary">Book Your First Session</a>
+        <a href="#memberships" class="btn btn-ghost">View Memberships</a>
+      </div>
+      <ul class="hero-meta">
+        <li><strong>15</strong><span>Reformers</span></li>
+        <li><strong>8</strong><span>Classes Daily</span></li>
+        <li><strong>$289</strong><span>Unlimited / mo</span></li>
+      </ul>
+    </div>
+  </section>
+  <!-- MARQUEE / VALUES -->
+  <section class="marquee" aria-hidden="true">
+    <div class="marquee-track">
+      <span>Strength</span><span>•</span>
+      <span>Length</span><span>•</span>
+      <span>Precision</span><span>•</span>
+      <span>Breath</span><span>•</span>
+      <span>Posture</span><span>•</span>
+      <span>Power</span><span>•</span>
+      <span>Strength</span><span>•</span>
+      <span>Length</span><span>•</span>
+      <span>Precision</span><span>•</span>
+      <span>Breath</span><span>•</span>
+      <span>Posture</span><span>•</span>
+      <span>Power</span><span>•</span>
+    </div>
+  </section>
+  <!-- STUDIO / ABOUT -->
+  <section class="section" id="studio">
+    <div class="container two-col">
+      <div class="col-image">
+        <div class="image-card image-1"></div>
+        <div class="image-card image-2"></div>
+      </div>
+      <div class="col-text">
+        <p class="eyebrow">The Studio</p>
+        <h2 class="display-sm">A space designed to make you feel taller the moment you walk in.</h2>
+        <p>
+          Tucked into the heart of Fountain Hills, our studio was built around a
+          simple idea: that a great Pilates practice deserves an extraordinary
+          environment. Floor-to-ceiling natural light, hand-selected materials,
+          and fifteen new-generation reformers sit beneath warm, low-lit
+          ceilings that let you focus inward.
+        </p>
+        <p>
+          Classes cap at fifteen so every cue is personal. You will be seen,
+          adjusted, and encouraged — every single time.
+        </p>
+        <ul class="feature-list">
+          <li><span>01</span> Fifteen new-generation reformers</li>
+          <li><span>02</span> Certified, expert-only instruction</li>
+          <li><span>03</span> Filtered air, infrared warming, premium amenities</li>
+          <li><span>04</span> Members-only locker rooms with luxury essentials</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+  <!-- CLASSES -->
+  <section class="section section-alt" id="classes">
+    <div class="container">
+      <div class="section-head">
+        <p class="eyebrow">Classes</p>
+        <h2 class="display-sm">Six methods. One reformer. Endless results.</h2>
+      </div>
+      <div class="class-grid">
+        <article class="class-card">
+          <h3>Foundations</h3>
+          <p class="duration">50 min · All Levels</p>
+          <p>Slow, technical, and grounding. Perfect for first-timers or anyone returning to refine their form.</p>
+        </article>
+        <article class="class-card">
+          <h3>Sculpt &amp; Flow</h3>
+          <p class="duration">50 min · Intermediate</p>
+          <p>A choreographed flow with light spring resistance — long lines, lifted core, elevated heart rate.</p>
+        </article>
+        <article class="class-card">
+          <h3>Power Reformer</h3>
+          <p class="duration">50 min · Advanced</p>
+          <p>Heavier loads, deliberate tempo, full-body fatigue. Build dense strength without losing length.</p>
+        </article>
+        <article class="class-card">
+          <h3>Stretch &amp; Restore</h3>
+          <p class="duration">45 min · All Levels</p>
+          <p>Deep myofascial release on the reformer — open hips, lengthen hamstrings, decompress the spine.</p>
+        </article>
+        <article class="class-card">
+          <h3>Cardio Reformer</h3>
+          <p class="duration">45 min · Intermediate</p>
+          <p>Jumpboard-driven, low-impact cardio that protects joints while sculpting legs and lungs.</p>
+        </article>
+        <article class="class-card">
+          <h3>Private 1:1</h3>
+          <p class="duration">55 min · By Request</p>
+          <p>One instructor, one client, one reformer. Custom programming for goals, rehab, or pre/postnatal.</p>
+        </article>
+      </div>
+    </div>
+  </section>
+  <!-- SCHEDULE -->
+  <section class="section" id="schedule">
+    <div class="container">
+      <div class="section-head">
+        <p class="eyebrow">Weekly Schedule</p>
+        <h2 class="display-sm">Up to eight classes a day, Monday through Friday.<br/>Four to six on weekends.</h2>
+        <p class="section-sub">A rolling schedule designed around real life — early mornings, lunch breaks, after-work, and weekend resets.</p>
+      </div>
+      <div class="schedule-table-wrap">
+        <table class="schedule-table" aria-label="Weekly class schedule">
+          <thead>
+            <tr>
+              <th>Time</th>
+              <th>Mon</th><th>Tue</th><th>Wed</th><th>Thu</th><th>Fri</th><th>Sat</th><th>Sun</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr><td>6:00 AM</td><td>Power</td><td>Sculpt</td><td>Power</td><td>Sculpt</td><td>Power</td><td>—</td><td>—</td></tr>
+            <tr><td>7:15 AM</td><td>Foundations</td><td>Foundations</td><td>Foundations</td><td>Foundations</td><td>Foundations</td><td>Sculpt</td><td>Sculpt</td></tr>
+            <tr><td>8:30 AM</td><td>Sculpt</td><td>Power</td><td>Sculpt</td><td>Power</td><td>Sculpt</td><td>Power</td><td>Foundations</td></tr>
+            <tr><td>9:45 AM</td><td>Cardio</td><td>Cardio</td><td>Cardio</td><td>Cardio</td><td>Cardio</td><td>Stretch</td><td>Stretch</td></tr>
+            <tr><td>12:00 PM</td><td>Foundations</td><td>Foundations</td><td>Foundations</td><td>Foundations</td><td>Foundations</td><td>Sculpt</td><td>—</td></tr>
+            <tr><td>4:30 PM</td><td>Sculpt</td><td>Power</td><td>Sculpt</td><td>Power</td><td>Sculpt</td><td>—</td><td>—</td></tr>
+            <tr><td>5:45 PM</td><td>Power</td><td>Sculpt</td><td>Power</td><td>Sculpt</td><td>Power</td><td>—</td><td>—</td></tr>
+            <tr><td>7:00 PM</td><td>Stretch</td><td>Stretch</td><td>Stretch</td><td>Stretch</td><td>Stretch</td><td>—</td><td>—</td></tr>
+          </tbody>
+        </table>
+      </div>
+      <p class="schedule-note">Schedule rotates seasonally. All classes capped at 15 to match our reformer count.</p>
+    </div>
+  </section>
+  <!-- MEMBERSHIPS -->
+  <section class="section section-dark" id="memberships">
+    <div class="container">
+      <div class="section-head light">
+        <p class="eyebrow">Memberships</p>
+        <h2 class="display-sm">Choose how you train.</h2>
+        <p class="section-sub">No contracts. Cancel anytime. Founding-member rates locked for life.</p>
+      </div>
+      <div class="pricing-grid">
+        <article class="price-card featured">
+          <div class="price-tag">Most Loved</div>
+          <h3>Unlimited</h3>
+          <p class="price"><span class="amount">$289</span><span class="per">/ month</span></p>
+          <ul>
+            <li>Unlimited reformer classes</li>
+            <li>Custom welcome package on signup</li>
+            <li><strong>Pilates grip socks every month</strong></li>
+            <li>Priority booking, 14 days out</li>
+            <li>Guest pass each month</li>
+            <li>Members-only events</li>
+          </ul>
+          <a href="#book" class="btn btn-primary btn-block">Become a Member</a>
+          <p class="fine">No initiation fee · Month-to-month</p>
+        </article>
+        <article class="price-card">
+          <h3>Single Session</h3>
+          <p class="price"><span class="amount">$35</span><span class="per">/ session</span></p>
+          <ul>
+            <li>Drop-in reformer class</li>
+            <li>Booked when openings are available</li>
+            <li>Standard 7-day booking window</li>
+            <li>Mat &amp; grip socks available on-site</li>
+          </ul>
+          <a href="#book" class="btn btn-ghost-light btn-block">Book a Class</a>
+          <p class="fine">Subject to availability</p>
+        </article>
+        <article class="price-card">
+          <h3>Private 1:1</h3>
+          <p class="price"><span class="amount">$120</span><span class="per">/ session</span></p>
+          <ul>
+            <li>One-on-one with a senior instructor</li>
+            <li>Custom programming &amp; assessment</li>
+            <li>Pre/postnatal &amp; rehab welcome</li>
+            <li>Packs of 5 / 10 available</li>
+          </ul>
+          <a href="#book" class="btn btn-ghost-light btn-block">Reserve Privately</a>
+          <p class="fine">By appointment</p>
+        </article>
+      </div>
+      <div class="welcome-card">
+        <div>
+          <p class="eyebrow">Included with Unlimited</p>
+          <h3 class="display-sm">The Welcome Package</h3>
+          <p>
+            Every new member is greeted with a custom welcome bundle: a signature
+            studio tote, branded water bottle, premium grip socks, a curated
+            recovery balm, and a one-on-one onboarding session with a senior instructor.
+            Each month thereafter, a fresh pair of grip socks lands on your studio shelf — yours.
+          </p>
+        </div>
+        <ul class="welcome-list">
+          <li>Signature studio tote</li>
+          <li>Insulated water bottle</li>
+          <li>Premium Pilates grip socks</li>
+          <li>Recovery balm &amp; mini towel</li>
+          <li>1:1 onboarding session</li>
+          <li>Monthly grip-sock refresh</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+  <!-- BOOKING / CALENDAR -->
+  <section class="section" id="book">
+    <div class="container">
+      <div class="section-head">
+        <p class="eyebrow">Book a Session</p>
+        <h2 class="display-sm">Reserve your spot in seconds.</h2>
+        <p class="section-sub">Pick a date, choose a time, lock it in. We'll confirm by email within minutes.</p>
+      </div>
+      <div class="booking">
+        <div class="booking-calendar">
+          <div class="cal-header">
+            <button class="cal-nav" id="cal-prev" aria-label="Previous month">‹</button>
+            <h3 id="cal-title">Month YYYY</h3>
+            <button class="cal-nav" id="cal-next" aria-label="Next month">›</button>
+          </div>
+          <div class="cal-weekdays">
+            <span>Sun</span><span>Mon</span><span>Tue</span><span>Wed</span>
+            <span>Thu</span><span>Fri</span><span>Sat</span>
+          </div>
+          <div class="cal-grid" id="cal-grid"></div>
+          <p class="cal-legend">
+            <span class="dot dot-avail"></span> Available
+            <span class="dot dot-limited"></span> Limited
+            <span class="dot dot-full"></span> Full
+          </p>
+        </div>
+        <div class="booking-side">
+          <div class="booking-step">
+            <h4>1. Selected date</h4>
+            <p id="selected-date">— pick a day to begin —</p>
+          </div>
+          <div class="booking-step">
+            <h4>2. Available times</h4>
+            <div class="time-slots" id="time-slots">
+              <p class="muted">Choose a date to see today's class times.</p>
+            </div>
+          </div>
+          <form class="booking-form" id="booking-form" novalidate>
+            <h4>3. Your details</h4>
+            <div class="form-row">
+              <label>Full name
+                <input type="text" name="name" required autocomplete="name" />
+              </label>
+              <label>Email
+                <input type="email" name="email" required autocomplete="email" />
+              </label>
+            </div>
+            <div class="form-row">
+              <label>Phone
+                <input type="tel" name="phone" required autocomplete="tel" />
+              </label>
+              <label>Membership
+                <select name="member">
+                  <option value="unlimited">Unlimited Member</option>
+                  <option value="single">Single Session ($35)</option>
+                  <option value="private">Private 1:1</option>
+                  <option value="new">New — first time</option>
+                </select>
+              </label>
+            </div>
+            <label class="full">Notes (injuries, goals, requests)
+              <textarea name="notes" rows="3"></textarea>
+            </label>
+            <button type="submit" class="btn btn-primary btn-block">Confirm Booking</button>
+            <p class="fine">By booking you agree to our 12-hour cancellation policy.</p>
+          </form>
+          <div class="booking-confirm" id="booking-confirm" hidden>
+            <div class="check">✓</div>
+            <h4>Reservation requested</h4>
+            <p id="confirm-text"></p>
+            <button class="btn btn-ghost" type="button" id="confirm-reset">Book another session</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- TESTIMONIALS -->
+  <section class="section section-alt">
+    <div class="container">
+      <div class="section-head">
+        <p class="eyebrow">From the community</p>
+        <h2 class="display-sm">"It doesn't feel like a workout. It feels like a ritual."</h2>
+      </div>
+      <div class="testimonials">
+        <figure>
+          <blockquote>The most beautiful studio I've ever set foot in — and the instruction is even better. I leave taller every single time.</blockquote>
+          <figcaption>— Marisa K., Founding Member</figcaption>
+        </figure>
+        <figure>
+          <blockquote>I've practiced Pilates for fifteen years across three cities. Nothing in Arizona comes close.</blockquote>
+          <figcaption>— Diane R.</figcaption>
+        </figure>
+        <figure>
+          <blockquote>The welcome package alone made me feel taken care of. The classes made me feel transformed.</blockquote>
+          <figcaption>— Jenna P.</figcaption>
+        </figure>
+      </div>
+    </div>
+  </section>
+  <!-- FAQ -->
+  <section class="section" id="faq">
+    <div class="container narrow">
+      <div class="section-head">
+        <p class="eyebrow">Questions</p>
+        <h2 class="display-sm">Frequently asked.</h2>
+      </div>
+      <div class="faq">
+        <details>
+          <summary>I've never tried reformer Pilates — where do I start?</summary>
+          <p>Start with our Foundations class. It is intentionally slower and our instructor will walk you through the reformer, your spring settings, and the foundational movement patterns.</p>
+        </details>
+        <details>
+          <summary>What should I wear?</summary>
+          <p>Form-fitting athletic wear and grip socks. We sell premium grip socks at the studio, and unlimited members receive a fresh pair every month.</p>
+        </details>
+        <details>
+          <summary>How early should I arrive?</summary>
+          <p>We recommend arriving ten minutes before class. The studio doors open thirty minutes prior so you can settle in, change, and meet your instructor.</p>
+        </details>
+        <details>
+          <summary>What's your cancellation policy?</summary>
+          <p>Reservations can be cancelled up to twelve hours before class without penalty. Late cancellations forfeit the session for non-members and incur a $20 fee for members.</p>
+        </details>
+        <details>
+          <summary>Do you offer single sessions?</summary>
+          <p>Yes — single sessions are $35 and may be booked when openings are available, typically up to seven days in advance.</p>
+        </details>
+        <details>
+          <summary>Is there a contract for the Unlimited Membership?</summary>
+          <p>None. Memberships are month-to-month and can be cancelled anytime with thirty days' notice.</p>
+        </details>
+      </div>
+    </div>
+  </section>
+  <!-- CONTACT -->
+  <section class="section section-contact" id="contact">
+    <div class="container two-col">
+      <div>
+        <p class="eyebrow">Visit</p>
+        <h2 class="display-sm">Come see the studio.</h2>
+        <p>Tours by appointment, Tuesday through Saturday. Walk-ins welcome between class blocks.</p>
+        <ul class="contact-list">
+          <li><strong>Address</strong><span>16858 E Avenue of the Fountains<br/>Suite 102, Fountain Hills, AZ 85268</span></li>
+          <li><strong>Hours</strong><span>Mon–Fri · 5:30a – 8:30p<br/>Sat–Sun · 7:00a – 1:00p</span></li>
+          <li><strong>Phone</strong><a href="tel:+14805550199">(480) 555-0199</a></li>
+          <li><strong>Email</strong><a href="mailto:hello@pilatesfountainhills.com">hello@pilatesfountainhills.com</a></li>
+        </ul>
+        <div class="socials">
+          <a href="#" aria-label="Instagram">Instagram</a>
+          <a href="#" aria-label="TikTok">TikTok</a>
+          <a href="#" aria-label="Facebook">Facebook</a>
+        </div>
+      </div>
+      <div class="map-card" aria-label="Studio location map">
+        <div class="map-pin">
+          <span></span>
+          <p>Fountain Hills, Arizona</p>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="container footer-inner">
+      <div class="footer-brand">
+        <span class="brand-mark">P</span>
+        <div>
+          <strong>Pilates Fountain Hills</strong>
+          <p>An exclusive reformer studio. Designed for the desert.</p>
+        </div>
+      </div>
+      <nav class="footer-links" aria-label="Footer">
+        <a href="#studio">Studio</a>
+        <a href="#classes">Classes</a>
+        <a href="#schedule">Schedule</a>
+        <a href="#memberships">Memberships</a>
+        <a href="#book">Book</a>
+        <a href="#contact">Contact</a>
+      </nav>
+      <p class="copyright">© <span id="year"></span> Pilates Fountain Hills. All rights reserved.</p>
+    </div>
+  </footer>
+  <script src="script.js"></script>
+</body>
+</html>
